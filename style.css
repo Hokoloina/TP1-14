@@ -24,6 +24,8 @@ li {
     padding: 8px 12px;
     list-style: none;
     font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    color: #000000;
 }
 
 header {
@@ -43,7 +45,17 @@ nav button {
     font-family: "Poppins", sans-serif;
     font-size: smaller;
 }
+
+li {
+    color: #000000;  
+
+}
+
+li:hover{
+    color: #3f65f0;
+    border-bottom: 2px solid #3f65f0;
+}
+
 a {
     color: black;
 }
-
